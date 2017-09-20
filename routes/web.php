@@ -18,3 +18,4 @@ $router->get('/', function () use ($router) {
 
 $router->get('news', 'NewsController@index');
 $router->post('news/post', 'NewsController@post');
+$router->delete('news/delete/{id}','NewsController@delete');
