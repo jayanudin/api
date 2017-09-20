@@ -27,7 +27,7 @@ class NewsController extends Controller{
     	$news  = News::find($id);
     	$news->delete();
  
-    	return response()->json('Removed successfully.');
+    	return $news;
 	}
  
 }
