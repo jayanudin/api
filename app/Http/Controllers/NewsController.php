@@ -21,7 +21,7 @@ class NewsController extends Controller{
  
     	return $news;
 
-        echo "stringssss";
+        echo "stringssss mamenn";
  
 	}
 
