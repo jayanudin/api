@@ -20,6 +20,11 @@ class NewsController extends Controller{
     	$news = News::create($request->all());
  
     	return $news;
+<<<<<<< Updated upstream
+=======
+
+        echo "strings";
+>>>>>>> Stashed changes
  
 	}
 
