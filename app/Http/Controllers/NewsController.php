@@ -20,6 +20,8 @@ class NewsController extends Controller{
     	$news = News::create($request->all());
  
     	return $news;
+
+        echo "string";;
  
 	}
 
